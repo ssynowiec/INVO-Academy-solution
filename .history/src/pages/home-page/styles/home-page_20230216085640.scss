@@ -1,0 +1,53 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.order {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 98%;
+	border-radius: 16px;
+	overflow: hidden;
+	background-color: var(--color-white);
+
+	&-image {
+		width: 100%;
+	}
+
+	&-title {
+		font-weight: bold;
+		font-size: 24px;
+		color: var(--color-title);
+	}
+
+	&-description {
+		text-align: center;
+	}
+
+	&-button {
+		border-radius: 16px;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 160%;
+		letter-spacing: -1%;
+		border: 1px solid var(--color-stroke);
+		background-color: var(--color-primary);
+		color: var(--color-white);
+		cursor: pointer;
+
+		&:hover {
+			background-color: var(--color-primary-hover);
+		}
+
+		&-link {
+			letter-spacing: -1%;
+			color: var(--color-title);
+		}
+	}
+}

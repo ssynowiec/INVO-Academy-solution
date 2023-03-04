@@ -1,0 +1,22 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.order {
+	width: 98%;
+	border-radius: 16px;
+	overflow: hidden;
+	background-color: var(--color-white);
+}
+
+.image {
+	width: 100%;
+}
+
+.button {
+	background-color: var(--color-primary);
+}
